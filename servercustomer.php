@@ -7,7 +7,7 @@ $customer_age=0;
 $customer_order="";
 $price=0;
 
-$con=mysqli_connect('localhost','root','','the pharmacy');
+$con=mysqli_connect('localhost','root','','the_pharmacy');
 $alldata="SELECT * from customers";
 $resultset=mysqli_query($con,$alldata);
 

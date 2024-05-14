@@ -7,7 +7,7 @@ $employer_address="";
 $employer_number=0;
 $employer_birth=0;
 
-$con=mysqli_connect('localhost','root','','the pharmacy');
+$con=mysqli_connect('localhost','root','','the_pharmacy');
 $allData="select * from employer";
 $resultset=mysqli_query($con,$allData);
 

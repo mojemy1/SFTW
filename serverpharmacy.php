@@ -7,7 +7,7 @@ $pharlocation="";
 
 
 #open connectio with the DB
-$con = mysqli_connect('localhost','root','','the pharmacy');
+$con = mysqli_connect('localhost','root','','the_pharmacy');
 
 #select all product lines from the table
 $alldata = "select * from pharmacy";

@@ -6,7 +6,7 @@ $medicine_number=0;
 $expiring_date="";
 $medicine_price=0;
 
-$con=mysqli_connect('localhost','root','','the pharmacy');
+$con=mysqli_connect('localhost','root','','the_pharmacy');
 $alldata="select * from medicines";
 $resultset=mysqli_query($con,$alldata);
 

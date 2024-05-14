@@ -11,7 +11,7 @@ $employee_hiring_date=0 ;
 $employee_work_location="" ;
 $employee_salary=0 ;
 
-$con=mysqli_connect('localhost','root','','the pharmacy');
+$con=mysqli_connect('localhost','root','','the_pharmacy');
 $alldata="SELECT * FROM employee";
 $resultset=mysqli_query($con,$alldata);
 

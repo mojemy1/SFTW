@@ -9,7 +9,7 @@ $order_price=0;
 $payment=0;
 $remaining=0;
 
-$con=mysqli_connect('localhost','root','','the pharmacy');
+$con=mysqli_connect('localhost','root','','the_pharmacy');
 $alldata="select * from medicine_company";
 $resultset=mysqli_query($con,$alldata);
 

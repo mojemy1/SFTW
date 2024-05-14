@@ -11,9 +11,9 @@ $employee_hiring_date=0 ;
 $employee_work_location="" ;
 $employee_salary=0 ;
 
-$con=mysqli_connect('localhost','root','','the pharmacy');
+$conn=mysqli_connect('localhost','root','','the pharmacy');
 $alldata="SELECT * FROM employee";
-$resultset=mysqli_query($con,$alldata);
+$resultset=mysqli_query($conn,$alldata);
 
 if (isset($_POST['Save']))
 
